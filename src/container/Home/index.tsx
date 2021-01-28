@@ -1,13 +1,16 @@
 
 import React from 'react';
+import './index.scss'
+import Header from './Header'
+import Footer from './Footer'
 
 export default class Home extends React.Component {
     render() {
         return (
-            <div>
-                <div>header</div>
+            <div className="home">
+                <Header></Header>
                 <div>center</div>
-                <div>footer</div>
+            <Footer></Footer>
             </div>
         )
     }

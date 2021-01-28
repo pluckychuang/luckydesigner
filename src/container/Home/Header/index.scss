@@ -1,0 +1,23 @@
+.header {
+    padding-top: 56px;
+    display: flex;
+    justify-content: space-between;    
+    .left {
+        .logo {
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    .right {
+        display: flex;
+        justify-content: flex-end;
+        color: #fff;
+        > div {
+            margin-left: 24px;
+            cursor: pointer;
+        }
+        .menu {
+            color: #fff
+        }
+    }
+}
